@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charishma Peetha - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#home" class="text-2xl font-bold text-gray-800">Portfolio</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">About</a>
+                    <a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
+                    <a href="#skills" class="text-gray-600 hover:text-gray-900 transition-colors">Skills</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="https://github.com/Charishma1389" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="mailto:charishmapeetha514@gmail.com" class="text-gray-600 hover:text-gray-900">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+                <button class="md:hidden text-gray-600">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 pt-16">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center justify-between">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+                            Hi, I'm <span class="text-blue-600">Charishma Peetha</span>
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-8">
+                            A passionate Web developer crafting beautiful and functional web experiences
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center">
+                                View My Work
+                                <i data-lucide="arrow-right" class="ml-2 w-4 h-4"></i>
+                            </a>
+                            <a href="#contact" class="px-6 py-3 border-2 border-gray-800 text-gray-800 rounded-lg hover:bg-gray-800 hover:text-white transition-colors">
+                                Contact Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="C:\Users\chari\OneDrive\Desktop\cherry port pic.jpg" 
+                             alt="Developer workspace" 
+                             class="rounded-lg shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                        <img src="C:\Users\chari\OneDrive\Desktop\number pattern.jpg" 
+                             alt="Guessing Game" 
+                             class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Task One GUESSING GAME</h3>
+                            <p class="text-gray-600 mb-4">A Java program where the user guesses a randomly generated number within a range. Provide feedback ("too high," "too low," or "correct") after each guess. Track attempts and end the game when the number is guessed or attempts run out.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">Java</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <a href="https://github.com/Charishma1389/guessing-game.git" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="flex items-center text-gray-600 hover:text-gray-900">
+                                    <i data-lucide="github" class="w-5 h-5 mr-2"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                        <img src="https://2.bp.blogspot.com/-0P_SbVUZPCk/WITFYUGcA3I/AAAAAAAABIo/XIyE6q00OikT3Eoq2PtwrEZgllsyelg6wCLcB/s1600/pattern.PNG" 
+                             alt="Patterns" 
+                             class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Task Two PATTERNS</h3>
+                            <p class="text-gray-600 mb-4">A Java program to generate and display various number patterns (e.g., pyramids, triangles) using loops. The program should take user input for the number of rows and dynamically print patterns based on the input.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">Java</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <a href="https://github.com/Charishma1389/patterns.git" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="flex items-center text-gray-600 hover:text-gray-900">
+                                    <i data-lucide="github" class="w-5 h-5 mr-2"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Skills & Technologies</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Technical Skills -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Technical Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Java</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Python</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">C</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">C++</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">DSA</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Soft Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Problem-Solving</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Communication Skills</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Team Collaboration</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Time Management</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Leadership qualities</span>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Internships & Certifications</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Cloud Computing</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">AI-ML</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Software Development</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Forage certifications</span>
+                            <span class="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm">Google</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Get In Touch</h2>
+                <div class="max-w-4xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="space-y-6">
+                            <h3 class="text-2xl font-bold text-gray-900">Contact Information</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-3">
+                                    <i data-lucide="mail" class="w-5 h-5 text-blue-600"></i>
+                                    <span class="text-gray-600">charishmapeetha514@gmail.com</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i data-lucide="phone" class="w-5 h-5 text-blue-600"></i>
+                                    <span class="text-gray-600">+91 7013989606</span>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i data-lucide="map-pin" class="w-5 h-5 text-blue-600"></i>
+                                    <span class="text-gray-600">Andhra Pradesh, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                                <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                                <input type="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                                <textarea id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-lg font-semibold">Charishma Peetha</p>
+                    <p class="text-gray-400">Web Developer</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/Charishma1389" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+                        <i data-lucide="github" class="w-6 h-6"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400">
+                        <i data-lucide="linkedin" class="w-6 h-6"></i>
+                    </a>
+                    <a href="mailto:charishmapeetha514@gmail.com" class="hover:text-blue-400">
+                        <i data-lucide="mail" class="w-6 h-6"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-gray-400">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Charishma Peetha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
